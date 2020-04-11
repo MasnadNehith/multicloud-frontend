@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {failover, getData} from './logic';
+import failover from './logic';
+import getData from './getdata';
 import DataBlog from './blog';
 
 function App() {
